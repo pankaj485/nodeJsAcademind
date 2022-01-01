@@ -1,12 +1,7 @@
-/* 
-1. spin up a Node.js-driven Server (on port 3000)
+const http = require("http");
 
-2. Handle two Routes "/" and "/users"
-    - Return some greeting text on "/"
-    - Return a list of dummy users (e.g <ul><li>User 1</li></ul>)
+const route = require("./routes");
 
-3. Add a form with a "username" <input> to the "/" page and submit a POST request to "/create-user" upon a button click 
+const server = http.createServer(route);
 
-4. Add the "/cteate-user" route and parse the incoming data(i.e the username) and simply log it into the console
-
-*/
+server.listen(3000);
