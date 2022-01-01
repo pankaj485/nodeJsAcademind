@@ -1,3 +1,6 @@
+# external files 
+dummy_*
+
 # Logs
 logs
 *.log
