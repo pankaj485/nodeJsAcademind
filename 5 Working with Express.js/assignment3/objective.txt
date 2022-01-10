@@ -1,0 +1,6 @@
+create npm project and install express.js 
+
+create express app which serves 2 html files of your choice for "/" and "/users"
+
+add some static files to your project that should be required by at least one of your project 
+
