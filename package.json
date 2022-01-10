@@ -1,0 +1,24 @@
+{
+  "name": "nodejsacademind",
+  "version": "1.0.0",
+  "description": "Notes, Files, Assignments",
+  "main": "5 Working with Express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankaj485/nodeJsAcademind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankaj485/nodeJsAcademind/issues"
+  },
+  "homepage": "https://github.com/pankaj485/nodeJsAcademind#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
