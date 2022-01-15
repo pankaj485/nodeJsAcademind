@@ -1,0 +1,17 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title #{docTitle}
+        link(rel="stylesheet" href="/global.css")
+    </head>
+    body
+        nav.main-navigation
+            ul.nav-ul
+                li(class=path==="/" ?"active": "")
+                    a.active.homeroute-link(href="/") Home
+                li(class=path==="/users" ?"active": "")
+                    a.userroute-link(href="/users") Users 
+
+        block content   

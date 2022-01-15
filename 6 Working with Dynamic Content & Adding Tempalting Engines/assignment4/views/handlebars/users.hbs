@@ -1,0 +1,13 @@
+<section class="users-list-container">
+	<ul class="users-list-ul">
+
+		{{#if hasSomeData}}
+			{{#each allUserData}}
+				<li class="user-list-li">username:
+					{{this.username}}, email:{{this.email}}</li>
+			{{/each}}
+		{{else}}
+			<h2>No data passed...</h2>
+		{{/if}}
+	</ul>
+</section>

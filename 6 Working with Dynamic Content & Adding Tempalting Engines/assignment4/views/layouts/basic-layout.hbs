@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users Page</title>
+    <link rel="stylesheet" href="/global.css" />
+</head>
+
+<body>
+    <nav class="main-navigation">
+        <ul class="nav-ul">
+            <li class="{{#if inHomePage}} active {{/if}}"  >
+                <a class="homeroute-link" href="/">Home </a>
+            </li>
+
+            <li class={{#if inUsersPage }} "active" {{/if}}>
+                <a class="userroute-link" href="/users">Users</a>
+            </li>
+        </ul>
+    </nav>
+
+    {{{body}}}
+</body>
+
+</html>

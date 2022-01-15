@@ -1,0 +1,13 @@
+extends ../layouts/basic-layout.pug
+
+
+block content 
+    form(action='/send-data' method='POST')
+        .username-input-area
+            label(for='username') Username: 
+            input#username.username-input(required='' type='text' name='username')
+        .email-input-area
+            label(for='email') Email: 
+            input#email.email-input(required='' type='email' name='email')
+        .submit-area
+            button.submit-button(type='submit') Submit

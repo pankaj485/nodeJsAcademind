@@ -1,0 +1,10 @@
+extends ../layouts/basic-layout.pug
+
+block content 
+    section.users-list-container
+        ul.users-list-ul
+            if allUserData.length > 0 
+                each user in allUserData
+                        li.user-list-li username: #{user.username} , email: #{user.email} 
+            else
+                h2 No data submited yet..
